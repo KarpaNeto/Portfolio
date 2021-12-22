@@ -88,10 +88,18 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-        height: 100%;
+        height: 100vh;
     }
 
     .i-desc {
         display: none;
+    }
+
+    .i-right {
+        display: none;
+    }
+
+    .i-title-item {
+        font-size: 20px;
     }
 }

@@ -26,7 +26,7 @@ const Contact = () => {
 
 
     return (
-        <div className="c">
+        <div id="contact" className="c">
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
@@ -45,11 +45,11 @@ const Contact = () => {
                             Palhoça/SC-Brasil
                         </div>
                     </div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" className="c-social-media"/>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" className="c-social-media"/>
                 </div>
                 <div className="c-right">
-                    <p className="c-desc">
-                        <b>Lorem ipsum dolor</b> sit amet consectetur adipisicing elit. Blanditiis placeat tempora error voluptatum molestiae facilis cum. Cumque quasi, exercitationem, a optio quas voluptatibus quae voluptates eius obcaecati dignissimos beatae ad.
-                    </p>
+                
                     <form ref={formRef} onSubmit={handleSubmit} action="">
                         <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
                         <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject" />

@@ -3,11 +3,11 @@ import Product from "../product/Product"
 import { products } from "../../data"
 const ProductList = () => {
     return (
-        <div className="pl">
+        <div id="projects" className="pl">
             <div className="pl-texts">
-                <h1 className="pl-title">Create & inspire.</h1>
+                <h1 className="pl-title">Projects</h1>
                 <p className="pl-desc">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde placeat similique aliquid hic perferendis, maxime, laboriosam ullam nisi voluptates ea sint corrupti tempora reiciendis, illum neque sit nemo error soluta?
+                    Here are some of my study projects...
                 </p>
             </div>
             <div className="pl-list">

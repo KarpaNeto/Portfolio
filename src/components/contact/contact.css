@@ -46,8 +46,9 @@
     margin-right: 20px;
 }
 
-.c-desc {
-    font-weight: 200px;
+.c-social-media {
+    width: 50px;
+    margin: 30px 30px 0 0;
 }
 
 form {
@@ -94,10 +95,6 @@ button {
     .c-info-item {
         margin: 20px 0;
         width: 100%;
-    }
-
-    .c-desc {
-        display: none;
     }
 
     form {

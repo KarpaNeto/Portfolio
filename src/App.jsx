@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
+import Header from "./components/header/Header";
 import Intro from "./components/intro/Intro";
 import ProductList from "./components/productList/ProductList";
 import Toggle from "./components/toggle/Toggle";
@@ -17,6 +18,7 @@ const App = () => {
         color: darkMode && "white"
       }}
     >
+      <Header />
       <Toggle />
       <Intro />
       <About />
@@ -24,6 +26,6 @@ const App = () => {
       <Contact />
     </div>
   );
-  };
+};
 
 export default App;
